@@ -1,16 +1,16 @@
 var authConfig = {
-  siteName: 'G-Index', // WebSite Name
+  siteName: 'Luminaria', // WebSite Name
   version: '2.0', // VersionControl, do not modify manually
   // Only material!
   theme: 'material', // material  classic
    //add themes color, darkmode
-  main_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
-  accent_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
-  dark_theme: false, // true for dark theme
+  main_color: 'light-blue', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
+  accent_color: 'yellow', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
+  dark_theme: true, // true for dark theme
   // client_id & client_secret - Please use your own!
-  client_id: '',
-  client_secret: '',
-  refresh_token: '', // Refresh token
+  client_id: '871115180425-un3197v162l4q5of6vgpeaqeqqqim2pn.apps.googleusercontent.com',
+  client_secret: 'K4tcgg24fK1u1zUELjbNI0ob',
+  refresh_token: '4/1AfDhmrinqB9tDxo2gsPhsitP2JezuEQY5gs8caNuRwL3bphmYxk2jlCKQc8', // Refresh token
 
  /**
   * Set up multiple Drives to be displayed; add multiples by format
@@ -34,10 +34,10 @@ var authConfig = {
       pass: ''
     },
     {
-      id: 'drive_id',
-      name: 'Sample2',
+      id: '1Z4jKA-feupf1DeKb-1TWIt7MsSFLg_vz',
+      name: 'Grive telegram',
       user: 'admin2',
-      pass: 'index',
+      pass: 'admin2',
       protect_file_link: true
     },
     {
@@ -71,7 +71,7 @@ var authConfig = {
     * [Note] If the password verification of the .password file is enabled, the overhead of querying whether the .password file in the directory will be added each time the directory is listed.
   */
   
-  "enable_password_file_verify": false
+  "enable_password_file_verify": true
   
 };
 
